@@ -1,50 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Single Price Grid Component offering a 30-day money back guarantee with full access to tutorials, code reviews, and expert community resources for developers."
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Single Price Grid Component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Join our community
+    <title>Frontend Mentor | Single Price Grid Component</title>
+  </head>
+  <body>
+    <main>
+      <article class="pricing-card">
+        <div class="pricing-card__community">
+          <h2 class="pricing-card__community-title">Join our community</h2>
+          <div class="pricing-card__community-content">
+            <h3 class="pricing-card__community-subtitle">
+              30-day, hassle-free money back guarantee
+            </h3>
+            <p class="pricing-card__community-description">
+              Gain access to our full library of tutorials along with expert code reviews. Perfect
+              for any developers who are serious about honing their skills.
+            </p>
+          </div>
+        </div>
 
-  30-day, hassle-free money back guarantee
+        <div class="pricing-card__subscription">
+          <h2 class="pricing-card__subscription-title">Monthly Subscription</h2>
+          <div class="pricing-card__subscription-content">
+            <div class="pricing-card__subscription-wrapper">
+              <div class="pricing-card__price">
+                <span class="pricing-card__price-amount">&dollar;29</span>
+                <span class="pricing-card__price-period">per month</span>
+              </div>
+              <p class="pricing-card__subscription-description">
+                Full access for less than &dollar;1 a day
+              </p>
+            </div>
+            <button class="pricing-card__button">Sign Up</button>
+          </div>
+        </div>
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
+        <div class="pricing-card__features">
+          <h2 class="pricing-card__features-title">Why Us</h2>
+          <ul class="pricing-card__features-list">
+            <li class="pricing-card__features-item">Tutorials by industry experts</li>
+            <li class="pricing-card__features-item">Peer &amp; expert code review</li>
+            <li class="pricing-card__features-item">Coding exercises</li>
+            <li class="pricing-card__features-item">Access to our GitHub repos</li>
+            <li class="pricing-card__features-item">Community forum</li>
+            <li class="pricing-card__features-item">Flashcard decks</li>
+            <li class="pricing-card__features-item">New videos every week</li>
+          </ul>
+        </div>
+      </article>
+    </main>
 
-  Monthly Subscription
-
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <footer class="footer">
+      <p class="footer__attribution">
+        Challenge by
+        <a class="footer__link" href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a class="footer__link" href="#">Your Name Here</a>.
+      </p>
+    </footer>
+  </body>
 </html>
