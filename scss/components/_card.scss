@@ -1,1 +1,11 @@
-// Karta komponent
+.pricing-card {
+  @include flex-column();
+
+  &__community {
+    @include flex-column();
+    background-color: $white;
+    align-items: center;
+    border-radius: $border-radius-4 $border-radius-4 0 0;
+    padding: $space-28 $space-24;
+  }
+}

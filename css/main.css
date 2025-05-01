@@ -89,3 +89,18 @@ main {
   padding: 0 1rem;
   width: 100%;
 }
+
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.pricing-card__community {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  background-color: hsl(0, 0%, 100%);
+  align-items: center;
+  border-radius: 0.25rem 0.25rem 0 0;
+  padding: 1.75rem 1.5rem;
+}
