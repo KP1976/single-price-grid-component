@@ -1,0 +1,48 @@
+// Colors
+// Primary
+$bright-yellow: hsl(71, 73%, 54%);
+$cyan: hsl(179, 62%, 43%);
+
+// Neutral
+$light-gray: hsl(204, 43%, 93%);
+$grayish-blue: hsl(218, 22%, 67%);
+$white: hsl(0, 0%, 100%);
+
+// Typography
+// Font families
+$font-family: "Karla", sans-serif;
+
+// Font weights
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
+// Font size
+$font-size-32: 2rem;
+$font-size-24: 1.5rem;
+$font-size-20: 1.25rem;
+$font-size-18: 1.125rem;
+$font-size-16: 1rem;
+$font-size-14: 0.875rem;
+
+// Line height
+$line-height-190: 1.9;
+$line-height-170: 1.7;
+$line-height-145: 1.45;
+$line-height-120: 1.2;
+
+// Letter spacing
+$letter-spacing--0_1: -0.1px;
+$letter-spacing--0_2: -0.2px;
+$letter-spacing--0_7: -0.7px;
+
+// SPACING
+$space-40: 2.5rem;
+$space-28: 1.75rem;
+$space-24: 1.5rem;
+$space-18: 1.125rem;
+$space-16: 1rem;
+$space-8: 0.5rem;
+
+// Layout Breakpoints (from style-guide)
+$breakpoint-mobile: 375px;
+$breakpoint-desktop: 1440px;
