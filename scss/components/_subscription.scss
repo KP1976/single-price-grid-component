@@ -1,0 +1,5 @@
+&__subscription {
+  @include flex-column(1.5rem);
+  background-color: $cyan;
+  padding: $space-24;
+}

@@ -1,7 +1,8 @@
-html,
 body {
+  background-color: $light-gray;
   max-width: 100vw;
   overflow-x: hidden;
+  padding: 1rem;
 }
 
 body {
@@ -16,9 +17,7 @@ body {
 main {
   @include flex-column();
   align-items: center;
-  background-color: $light-gray;
   flex: 1 1 auto;
   justify-content: center;
-  padding: 0 $space-16;
   width: 100%;
 }
