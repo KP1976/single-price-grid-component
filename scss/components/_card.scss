@@ -26,5 +26,13 @@
       letter-spacing: $letter-spacing--0_7;
       line-height: $line-height-120;
     }
+
+    &-description {
+      color: $grayish-blue;
+      font-size: $font-size-14;
+      font-weight: $font-weight-regular;
+      letter-spacing: $letter-spacing--0_2;
+      line-height: $line-height-190;
+    }
   }
 }
