@@ -2,10 +2,17 @@
   @include flex-column();
 
   &__community {
-    @include flex-column();
+    @include flex-column(1rem);
     background-color: $white;
-    align-items: center;
     border-radius: $border-radius-4 $border-radius-4 0 0;
     padding: $space-28 $space-24;
+
+    &-title {
+      color: $cyan;
+      font-size: $font-size-20;
+      font-weight: $font-weight-bold;
+      letter-spacing: $letter-spacing--0_2;
+      line-height: $line-height-120;
+    }
   }
 }

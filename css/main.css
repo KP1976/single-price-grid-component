@@ -98,9 +98,15 @@ main {
 .pricing-card__community {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 1rem;
   background-color: hsl(0, 0%, 100%);
-  align-items: center;
   border-radius: 0.25rem 0.25rem 0 0;
   padding: 1.75rem 1.5rem;
+}
+.pricing-card__community-title {
+  color: hsl(179, 62%, 43%);
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  line-height: 1.2;
 }
