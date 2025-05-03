@@ -1,0 +1,4 @@
+&__features {
+  @include flex-column($space-18);
+  padding: $space-24;
+}
