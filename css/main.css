@@ -140,7 +140,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  color: hsl(0, 0%, 100%);
+  color: hsl(204, 43%, 93%);
   font-size: 1.125rem;
   font-weight: 700;
   letter-spacing: -0.2px;
@@ -163,14 +163,14 @@ main {
   gap: 0.5rem;
 }
 .pricing-card__subscription-price-amount {
-  color: hsl(0, 0%, 100%);
+  color: hsl(204, 43%, 93%);
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: -0.2px;
   line-height: 1.2;
 }
 .pricing-card__subscription-price-period, .pricing-card__subscription-description {
-  color: hsl(0, 0%, 100%);
+  color: hsl(204, 43%, 93%);
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: -0.2px;
@@ -180,6 +180,7 @@ main {
   background-color: hsl(71, 73%, 54%);
   border: none;
   border-radius: 0.25rem;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
   color: hsl(0, 0%, 100%);
   font-size: 1rem;
   font-weight: 700;
@@ -188,10 +189,11 @@ main {
   line-height: 1.2;
 }
 .pricing-card__features {
-  background-color: hsla(179, 62%, 43%, 0.8);
   display: flex;
   flex-direction: column;
   gap: 1.125rem;
+  background-color: hsla(179, 62%, 43%, 0.8);
+  border-radius: 0 0 0.25rem 0.25rem;
   padding: 1.5rem;
 }
 .pricing-card__features-title {
@@ -200,4 +202,11 @@ main {
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: -0.2px;
+}
+.pricing-card__features-item {
+  color: hsl(204, 43%, 93%);
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  line-height: 1.45;
 }

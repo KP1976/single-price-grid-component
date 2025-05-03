@@ -5,7 +5,7 @@
 
   &-title {
     @include flex-column($space-16);
-    color: $white;
+    color: $light-gray;
     font-size: $font-size-18;
     font-weight: $font-weight-bold;
     letter-spacing: $letter-spacing--0_2;
@@ -26,7 +26,7 @@
   }
 
   &-price-amount {
-    color: $white;
+    color: $light-gray;
     font-size: $font-size-32;
     font-weight: $font-weight-bold;
     letter-spacing: $letter-spacing--0_2;
@@ -35,7 +35,7 @@
 
   &-price-period,
   &-description {
-    color: $white;
+    color: $light-gray;
     font-size: $font-size-16;
     font-weight: $font-weight-regular;
     letter-spacing: $letter-spacing--0_2;
@@ -46,6 +46,7 @@
     background-color: $bright-yellow;
     border: none;
     border-radius: $border-radius-4;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
     color: $white;
     font-size: $font-size-16;
     font-weight: $font-weight-bold;

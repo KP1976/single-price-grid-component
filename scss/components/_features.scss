@@ -1,6 +1,7 @@
 &__features {
-  background-color: $cyan-80;
   @include flex-column($space-18);
+  background-color: $cyan-80;
+  border-radius: 0 0 $border-radius-4 $border-radius-4;
   padding: $space-24;
 
   &-title {
@@ -9,5 +10,13 @@
     font-weight: $font-weight-bold;
     line-height: $line-height-120;
     letter-spacing: $letter-spacing--0_2;
+  }
+
+  &-item {
+    color: $light-gray;
+    font-size: $font-size-14;
+    font-weight: $font-weight-regular;
+    letter-spacing: $letter-spacing--0_1;
+    line-height: $line-height-145;
   }
 }
