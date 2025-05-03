@@ -41,4 +41,16 @@
     letter-spacing: $letter-spacing--0_2;
     line-height: $line-height-120;
   }
+
+  &-button {
+    background-color: $bright-yellow;
+    border: none;
+    border-radius: $border-radius-4;
+    color: $white;
+    font-size: $font-size-16;
+    font-weight: $font-weight-bold;
+    height: 3rem;
+    letter-spacing: $letter-spacing--0_2;
+    line-height: $line-height-120;
+  }
 }
