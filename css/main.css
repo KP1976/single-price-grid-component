@@ -169,7 +169,7 @@ main {
   letter-spacing: -0.2px;
   line-height: 1.2;
 }
-.pricing-card__subscription-price-period {
+.pricing-card__subscription-price-period, .pricing-card__subscription-description {
   color: hsl(0, 0%, 100%);
   font-size: 1rem;
   font-weight: 400;
