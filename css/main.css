@@ -188,8 +188,16 @@ main {
   line-height: 1.2;
 }
 .pricing-card__features {
+  background-color: hsla(179, 62%, 43%, 0.8);
   display: flex;
   flex-direction: column;
   gap: 1.125rem;
   padding: 1.5rem;
+}
+.pricing-card__features-title {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.2px;
 }
