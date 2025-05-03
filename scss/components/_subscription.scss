@@ -1,5 +1,5 @@
 &__subscription {
-  @include flex-column($space-24);
+  @include flex-column($space-16);
   background-color: $cyan;
   padding: $space-24;
 
@@ -8,6 +8,35 @@
     color: $white;
     font-size: $font-size-18;
     font-weight: $font-weight-bold;
+    letter-spacing: $letter-spacing--0_2;
+    line-height: $line-height-120;
+  }
+
+  &-content {
+    @include flex-column($space-28);
+  }
+
+  &-wrapper {
+    @include flex-column($space-8);
+  }
+
+  &-price {
+    align-items: center;
+    @include flex-row($space-8);
+  }
+
+  &-price-amount {
+    color: $white;
+    font-size: $font-size-32;
+    font-weight: $font-weight-bold;
+    letter-spacing: $letter-spacing--0_2;
+    line-height: $line-height-120;
+  }
+
+  &-price-period {
+    color: $white;
+    font-size: $font-size-16;
+    font-weight: $font-weight-regular;
     letter-spacing: $letter-spacing--0_2;
     line-height: $line-height-120;
   }
