@@ -31,4 +31,8 @@
     letter-spacing: $letter-spacing--0_2;
     line-height: $line-height-190;
   }
+
+  @include respond-to($breakpoint-desktop) {
+    border-radius: $border-radius-8 $border-radius-8 0 0;
+  }
 }

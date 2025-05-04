@@ -80,7 +80,7 @@ body {
 }
 @media (min-width: 23.438rem) {
   body {
-    padding: 2.5rem;
+    padding: 2rem;
   }
 }
 
@@ -116,6 +116,25 @@ main {
   flex-direction: column;
   gap: 0;
   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+  flex-wrap: wrap;
+}
+@media (min-width: 43.625rem) {
+  .pricing-card {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    border-radius: 0.5rem;
+    max-width: 39.625rem;
+  }
+}
+@media (min-width: 43.625rem) {
+  .pricing-card .pricing-card__community {
+    flex: 1 1 100%;
+  }
+  .pricing-card .pricing-card__subscription,
+  .pricing-card .pricing-card__features {
+    flex: 1 1 50%;
+  }
 }
 .pricing-card__community {
   display: flex;
@@ -150,6 +169,11 @@ main {
   font-weight: 400;
   letter-spacing: -0.2px;
   line-height: 1.9;
+}
+@media (min-width: 43.625rem) {
+  .pricing-card__community {
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
 }
 .pricing-card__subscription {
   display: flex;
@@ -210,6 +234,11 @@ main {
   letter-spacing: -0.2px;
   line-height: 1.2;
 }
+@media (min-width: 43.625rem) {
+  .pricing-card__subscription {
+    border-radius: 0 0 0 0.5rem;
+  }
+}
 .pricing-card__features {
   display: flex;
   flex-direction: column;
@@ -231,4 +260,9 @@ main {
   font-weight: 400;
   letter-spacing: -0.1px;
   line-height: 1.45;
+}
+@media (min-width: 43.625rem) {
+  .pricing-card__features {
+    border-radius: 0 0 0.5rem 0;
+  }
 }

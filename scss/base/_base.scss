@@ -14,7 +14,7 @@ body {
   padding: 1rem;
 
   @include respond-to($breakpoint-mobile) {
-    padding: $space-40;
+    padding: $space-32;
   }
 }
 

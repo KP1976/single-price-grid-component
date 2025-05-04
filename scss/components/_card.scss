@@ -1,6 +1,24 @@
 .pricing-card {
   @include flex-column();
   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+  flex-wrap: wrap;
+
+  @include respond-to($breakpoint-desktop) {
+    @include flex-row();
+    border-radius: $border-radius-8;
+    max-width: 39.625rem;
+  }
+
+  @include respond-to($breakpoint-desktop) {
+    .pricing-card__community {
+      flex: 1 1 100%;
+    }
+
+    .pricing-card__subscription,
+    .pricing-card__features {
+      flex: 1 1 50%;
+    }
+  }
 
   @import "community";
   @import "subscription";
