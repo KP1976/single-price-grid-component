@@ -12,6 +12,10 @@ body {
   min-height: 100dvh;
   overflow-x: hidden;
   padding: 1rem;
+
+  @include respond-to($breakpoint-mobile) {
+    padding: $space-40;
+  }
 }
 
 main {
