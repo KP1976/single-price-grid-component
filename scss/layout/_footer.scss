@@ -1,1 +1,18 @@
-// Footer layoutu
+.footer {
+  margin: 1rem 0;
+  text-align: center;
+
+  &__attribution {
+    color: $cyan-80;
+    font-size: $font-size-14;
+    font-weight: $font-weight-regular;
+    line-height: $line-height-120;
+    letter-spacing: $letter-spacing--0_2;
+  }
+
+  &__link {
+    color: $cyan;
+    font-weight: $font-weight-bold;
+    text-decoration: none;
+  }
+}
