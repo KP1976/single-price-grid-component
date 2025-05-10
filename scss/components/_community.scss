@@ -4,16 +4,29 @@
   border-radius: $border-radius-4 $border-radius-4 0 0;
   padding: $space-28 $space-24;
 
+  @include respond-to($breakpoint-desktop) {
+    border-radius: $border-radius-8 $border-radius-8 0 0;
+    padding: $space-40;
+  }
+
   &-title {
     color: $cyan;
     font-size: $font-size-20;
     font-weight: $font-weight-bold;
     letter-spacing: $letter-spacing--0_2;
     line-height: $line-height-120;
+
+    @include respond-to($breakpoint-desktop) {
+      font-size: $font-size-24;
+    }
   }
 
   &-content {
-    @include flex-column(1rem);
+    @include flex-column($space-16);
+
+    @include respond-to($breakpoint-desktop) {
+      @include flex-column($space-8);
+    }
   }
 
   &-subtitle {
@@ -22,6 +35,10 @@
     font-weight: $font-weight-bold;
     letter-spacing: $letter-spacing--0_7;
     line-height: $line-height-120;
+
+    @include respond-to($breakpoint-desktop) {
+      font-size: $font-size-18;
+    }
   }
 
   &-description {
@@ -30,9 +47,10 @@
     font-weight: $font-weight-regular;
     letter-spacing: $letter-spacing--0_2;
     line-height: $line-height-190;
-  }
 
-  @include respond-to($breakpoint-desktop) {
-    border-radius: $border-radius-8 $border-radius-8 0 0;
+    @include respond-to($breakpoint-desktop) {
+      font-size: $font-size-16;
+      line-height: $line-height-170;
+    }
   }
 }
