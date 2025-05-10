@@ -3,6 +3,11 @@
   background-color: $cyan;
   padding: $space-24;
 
+  @include respond-to($breakpoint-desktop) {
+    border-radius: 0 0 0 $border-radius-8;
+    padding: $space-40;
+  }
+
   &-title {
     @include flex-column($space-16);
     color: $light-gray;
@@ -53,9 +58,5 @@
     height: 3rem;
     letter-spacing: $letter-spacing--0_2;
     line-height: $line-height-120;
-  }
-
-  @include respond-to($breakpoint-desktop) {
-    border-radius: 0 0 0 $border-radius-8;
   }
 }

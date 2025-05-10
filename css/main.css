@@ -206,6 +206,12 @@ main {
   background-color: hsl(179, 62%, 43%);
   padding: 1.5rem;
 }
+@media (min-width: 43.625rem) {
+  .pricing-card__subscription {
+    border-radius: 0 0 0 0.5rem;
+    padding: 2.5rem;
+  }
+}
 .pricing-card__subscription-title {
   display: flex;
   flex-direction: column;
@@ -257,11 +263,6 @@ main {
   height: 3rem;
   letter-spacing: -0.2px;
   line-height: 1.2;
-}
-@media (min-width: 43.625rem) {
-  .pricing-card__subscription {
-    border-radius: 0 0 0 0.5rem;
-  }
 }
 .pricing-card__features {
   display: flex;
